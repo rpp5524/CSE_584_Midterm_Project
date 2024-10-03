@@ -3,7 +3,7 @@ import requests
 
 # List of initial text fragments
 import pandas as pd
-df = pd.read_csv('../584_xi_data.csv')
+df = pd.read_csv('../data/stanford_corpus/subset_stanford_corpus.csv')
 
 
 # Define the URL for the API endpoint
@@ -11,9 +11,11 @@ url = 'http://localhost:11434/api/generate'
 
 # LLMs hosted locally
 llms = [
-    'llama3',
-    'llama2',
-    'mistral',
+    # 'llama3.2:latest',
+    # 'llama3:latest',
+    # 'qwen2.5:latest',
+    'mistral:latest',
+
 ]
 
 def get_prompt(sentence):
@@ -37,7 +39,7 @@ data_rows = []
 index = 0
 
 text_fragments = [
-    "Yesterday I went",
+    "Yesterday I went", 
     "Today I will",
     "Tomorrow I plan to",
     "I think that"
@@ -77,9 +79,10 @@ for llm_name in llms:
                 print(f"Failed to generate from {llm_name}. Status code: {response.status_code}")
         except Exception as e:
             print(f"Error generating completion with {llm_name}: {e}")
+    print("Finished generating Xj for ", llm_name, "\n")
 
 # Create a DataFrame from collected data rows
 dataset = pd.DataFrame(data_rows)
 # Save dataset to CSV
-dataset.to_csv('llm_completions_dataset.csv', index=False)
-print("Dataset generated and saved to llm_completions_dataset.csv.")
+dataset.to_csv('llm_completeions_stanford_corpus_mistral.csv', index=False)
+print("Dataset generated and saved to llm_completeions_stanford_corpus_mistral.csv.")
