@@ -1,0 +1,6 @@
+Xi,Xj,model,temperature,top_p,top_k,max_output_tokens,percentage_ai_count
+Thequestionofhowhuman decision-makersdeterminetheb, best course of action remains a subjective process,mistral:latest,0.2,0.6,0.0,8192,1-2 lines
+informed by na turalistic p riors . The agent m ig, made decisions based on intuition,mistral:latest,0.2,0.6,0.0,8192,1-2 lines
+"Classification problems are central to many applications of machine learning, including", predicting customer churn or credit risk.,mistral:latest,0.2,0.6,0.0,8192,1-2 lines
+Lifelong learning policies aim to create a skilled workforce capable of adapting to the demands, ...of an ever-changing job market.,mistral:latest,0.2,0.6,0.0,8192,1-2 lines
+Bayesian methods are widely used in machine, learning applications due to their ability to model uncertainty effectively.,mistral:latest,0.2,0.6,0.0,8192,1-2 lines

@@ -1,0 +1,6 @@
+Xi,Xj,model,temperature,top_p,top_k,max_output_tokens,percentage_ai_count
+Thequestionofhowhuman decision-makersdeterminetheb,make decisions is based on various cognitive processes.,qwen2.5:latest,0.2,0.9,0.0,8192,15
+informed by na turalistic p riors . The agent m ig,was likely to interpret the situation in a similar way.,qwen2.5:latest,0.2,0.9,0.0,8192,15
+"Classification problems are central to many applications of machine learning, including",modeling image recognition and natural language processing.,qwen2.5:latest,0.2,0.9,0.0,8192,15
+Lifelong learning policies aim to create a skilled workforce capable of adapting to the demands,of rapidly changing technology and economic conditions.,qwen2.5:latest,0.2,0.9,0.0,8192,15
+Bayesian methods are widely used in machine,learning for their robustness and flexibility.,qwen2.5:latest,0.2,0.9,0.0,8192,15

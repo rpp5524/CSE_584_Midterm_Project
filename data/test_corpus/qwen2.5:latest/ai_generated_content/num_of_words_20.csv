@@ -1,0 +1,6 @@
+Xi,Xj,model,temperature,top_p,top_k,max_output_tokens,percentage_ai_count
+Thequestionofhowhuman decision-makersdeterminetheb,ias worth should be distributed fairly.,qwen2.5:latest,0.2,0.9,0.0,8192,20
+informed by na turalistic p riors . The agent m ig,was likely to interpret situations in a similar way.,qwen2.5:latest,0.2,0.9,0.0,8192,20
+"Classification problems are central to many applications of machine learning, including",spam detection and image recognition,qwen2.5:latest,0.2,0.9,0.0,8192,20
+Lifelong learning policies aim to create a skilled workforce capable of adapting to the demands,in an ever-evolving technological landscape.,qwen2.5:latest,0.2,0.9,0.0,8192,20
+Bayesian methods are widely used in machine,output: learning for their probabilistic nature.,qwen2.5:latest,0.2,0.9,0.0,8192,20

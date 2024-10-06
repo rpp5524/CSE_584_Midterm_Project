@@ -1,0 +1,6 @@
+Xi,Xj,model,temperature,top_p,top_k,max_output_tokens,percentage_ai_count
+Thequestionofhowhuman decision-makersdeterminetheb,...directions for future generations.,llama3.2:latest,0.4,0.9,0.0,8192,1-2 lines
+informed by na turalistic p riors . The agent m ig,was trained on a dataset that included numerous examples of deceptive behavior.,llama3.2:latest,0.4,0.9,0.0,8192,1-2 lines
+"Classification problems are central to many applications of machine learning, including","...image recognition, natural language processing, and predictive modeling.",llama3.2:latest,0.4,0.9,0.0,8192,1-2 lines
+Lifelong learning policies aim to create a skilled workforce capable of adapting to the demands,of an increasingly complex global economy.,llama3.2:latest,0.4,0.9,0.0,8192,1-2 lines
+Bayesian methods are widely used in machine,learning for their ability to handle uncertainty.,llama3.2:latest,0.4,0.9,0.0,8192,1-2 lines
