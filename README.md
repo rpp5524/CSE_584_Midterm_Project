@@ -1,10 +1,13 @@
 # CSE 584 Midterm Project
 This is a github repository for CSE 584 Midterm project
 
+## Problem Description
+Given a set of truncated texts, for each piece of text xi, such as “Yesterday I went”, ask different Large Language Models (LLMs) to complete it by appending xj =”to Costco and purchased a floor cleaner.” so you get a complete text like “Yesterday I went to Costco and purchased a floor cleaner.” from each LLM. The same xi leads to different xj. Now please build a deep learning classifier to figure out, for each input (xi, xj), which LLM was used for this pair.
+
 ## Features
 - Data curation, preprocessing and setup for LLM output analysis.
 - Deep learning classifier to identify the originating LLM for given text pairs.
-- Evaluation and testing scripts to genrate date to perform experiemnts on 
+- Automation scripts to genrate date to perform experiemnts on 
 - Assess model performance on that experimental testing data.
 
 ## Installation
@@ -36,7 +39,8 @@ python3 datset_curation.py
 Run the cells `gemini-scripy.ipynb` and  `llama3.1-script.ipynb` as well
 These scripts will generate the dataset for training the deep learning classifier.
 
-3. 
+3. Run the `classifier/CSE_584_classification.ipynb` file to train the classifier on the dataset that has been generated.
+5. To obtain plots of results experiments and in-depth analysis, run the cells after the clasifier in `classifier/CSE_584_classification.ipynb` file in the clasifier folder.
 4. Run the `test_curation.py` script to generate experimental testing data to perform tests to do and in-depth analysis
 ```bash
 python3 test_curation.py
